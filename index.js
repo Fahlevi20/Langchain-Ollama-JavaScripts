@@ -9,3 +9,5 @@ const messages = [
     new SystemMessage("you are an assistant"),
     new HumanMessage("halo!"),
 ];
+
+model.invoke(messages);
